@@ -5,7 +5,7 @@ files:
     destination: /var/www/html/
   - source: /pages
     destination: /var/www/html/
-  - source: /*.js
+  - source: /app.js
     destination: /var/www/html/    
 hooks:
   BeforeInstall:
