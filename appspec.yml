@@ -5,6 +5,10 @@ files:
     destination: /var/www/html/
   - source: /pages
     destination: /var/www/html/
+  - source: //pages/home.htm
+    destination: /var/www/html/pages   
+  - source: //pages/forcast.htm
+    destination: /var/www/html/pages      
   - source: /app.js
     destination: /var/www/html/    
 hooks:
